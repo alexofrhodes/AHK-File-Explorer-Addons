@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2
 
+;autoload scripts must be v2
 #Include ./autoload/NavigateSiblingFolders_v2.ahk
 SetupTray
 
