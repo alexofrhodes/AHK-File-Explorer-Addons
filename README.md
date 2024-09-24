@@ -1,36 +1,9 @@
 # The ahk shell menu
 
-Displays a popup menu when you 
-extended-right-click 
-in file explorer.   
-(remember to select ALL target files with left click before calling the popup)  
-
-each 1st level folder in (A_ScriptDir \ Scripts \ ) serves as a submenu (category) and each ahk or exe in those folders (recursive) becomes a submenu button
-
-while each 1st level ahk or exe becomes a menu button
-
-**eg folder/file structure**
->- Scripts\  
->     - Txt Scripts\  
->        - Action Set 1\  
->            - Cat1\
->                - a.ahk
->            - b.exe
->     - Zip Scripts\  
->        - c.ahk  
->    - d.ahk  
->    - e.exe  
-
-
-**result**
-
->- Txt Scripts **>**  
->    - a.ahk  
->    - b.exe
->- Zip Scripts **>**  
->    - c.ahk  
->- d.ahk
->- e.exe
+Displays a popup menu when you extended-right-click in file explorer.   
+I use this to hold scripts targeting selected files and/or folders.  
+Creates a menu for ahk/exe files and runs them on click, so they can be v1 or v2 or exe.  
+It also autoloads scripts in the respective folder.
 
 **One way for the ahk scripts loop the selected files is**  
 
